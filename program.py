@@ -10,7 +10,7 @@ EXCEL_FILE_PATH = "air_quality_data.xlsx"
 
 def fetch_data_from_api():
     params = {
-        "city": "Cairo", # Your city
+        "city": "Cairo City", # Your city
         "state": "Cairo", # Your state
         "country": "Egypt", # Your country
         "key": API_KEY
